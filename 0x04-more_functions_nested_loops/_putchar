@@ -1,0 +1,18 @@
+#ifndef MY_HEADER_H
+#define MY_HEADER_H
+
+#include <unistd.h>
+
+/**
+ * _putchar - writes a character to the standard output
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned and errno is set appropriately.
+ */
+int _putchar(char c)
+int _isupper(int c)
+{
+	return write(1, &c, 1);
+}
+#endif /* MY_HEADER_H */
